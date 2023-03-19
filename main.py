@@ -16,7 +16,7 @@ WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL") or ""
 SUBREDDIT_NAME = os.environ.get("SUBREDDIT_NAME") or ""
 PING_ID = os.environ.get("PING_ID")
 
-UPVOTE_THRESHOLD = 10000
+UPVOTE_THRESHOLD = 5000
 INTERVAL = 5
 
 published = []
